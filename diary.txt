@@ -1,0 +1,102 @@
+octave:5> hw4
+blueTicket(9, 28, 2) --> 0
+blueTicket(12, 3, 2) --> 5
+blueTicket(-10, 10, 0) --> 10
+blueTicket(1, 8, 2) --> 10
+blueTicket(23, 5, 1) --> 0
+blueTicket(10, 0, 1) --> 10
+blueTicket(11, 0, 1) --> 5
+blueTicket(1, 8, 20) --> 10
+blueTicket(-10, -10, 0) --> 0
+blueTicket(-10, 0, 1) --> 0
+blueTicket(250, 5, 240) --> 5
+blueTicket(11, 0, 1) --> 5
+blueTicket(13, 2, 3) --> 5
+blueTicket(9, 1, 0) --> 10
+ans = 0
+bunnyEars2(0) 0<==>0
+bunnyEars2(1) 2<==>2
+bunnyEars2(2) 5<==>5
+bunnyEars2(3) 7<==>7
+bunnyEars2(4) 10<==>10
+bunnyEars2(5) 12<==>12
+bunnyEars2(6) 15<==>15
+bunnyEars2(10) 25<==>25
+# of errors: 0
+        close10(8,13)->8
+        close10(13,8)->8
+        close10(7,13)->0
+        close10(13,7)->0
+        close10(5,21)->5
+        close10(0,20)->0
+        close10(10,10)->0
+        close10(27,-7)->0
+        close10(15,4)->0
+        close10(123456,123457)->123456
+e = 0
+
+Errors: 0
+
+        fibonacci(0)->0
+        fibonacci(1)->1
+        fibonacci(2)->1
+        fibonacci(3)->2
+        fibonacci(4)->3
+        fibonacci(5)->5
+        fibonacci(6)->8
+        fibonacci(7)->13
+        fibonacci(8)->21
+        fibonacci(9)->34
+        fibonacci(10)->55
+        fibonacci(11)->89
+ans = 0
+ans =  1
+ans =  1
+ans =  1
+ans =  1
+ans =  1
+ans =  1
+ans =  1
+ans =  1
+ans =  1
+ans =  1
+ans =  1
+      isPrime(1)=0
+      isPrime(2)=1
+      isPrime(3)=1
+      isPrime(10)=0
+      isPrime(100)=0
+      isPrime(7)=1
+      isPrime(13)=1
+      isPrime(53)=1
+      isPrime(97)=1
+      isPrime(20)=0
+      isPrime(16)=0
+      isPrime(70)=0
+      isPrime(103)=1
+ans = 0
+powerN(3,2)=9
+powerN(5,3)=125
+powerN(9,3)=729
+powerN(10,3)=1000
+powerN(7,2)=49
+powerN(4,4)=256
+powerN(8,3)=512
+powerN(6,3)=216
+powerN(2,5)=32
+powerN(11,2)=121
+powerN(25,4)=390625
+powerN(4,9)=262144
+powerN(0,2)=0
+powerN(2,1)=2
+powerN(2,0)=1
+ans = 0
+sameFirstLast() 0<==>0
+sameFirstLast() 0<==>0
+sameFirstLast() 1<==>1
+sameFirstLast() 1<==>1
+sameFirstLast() 1<==>1
+sameFirstLast() 0<==>0
+Number of errors: 0
+ans = 0
+octave:6> diary off
